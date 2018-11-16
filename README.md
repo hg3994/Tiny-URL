@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+These steps are necessary to get the application up and running.
 
-Things you may want to cover:
+* Ruby version used: ruby 2.5.1p57
 
-* Ruby version
+* Rails version used: Rails 5.1.6
 
-* System dependencies
+* Database used: SQLite3
 
-* Configuration
+* How to run the application:
 
-* Database creation
+	* Clone the application from git.
 
-* Database initialization
+	* Install the gems required with the command: "bundle install"
 
-* How to run the test suite
+	* Start the rails server with the command: "rails -s"
 
-* Services (job queues, cache servers, search engines, etc.)
+	* Hit the URL: http://localhost:3000/urls/show_short_urls in any browser
 
-* Deployment instructions
-
-* ...
+	* Enjoy!
