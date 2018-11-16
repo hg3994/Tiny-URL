@@ -1,0 +1,17 @@
+<h4> Create new short url</h4>
+
+<form method="post" action="create_shorturl" class="button_to" data-remote="true" data-type="json">
+	<input name="long_url" value=""/>
+	<input value="Create" type="submit" />
+</form>
+<br>
+<%= @message %>
+
+<h4> List of existing short urls</h4>
+
+<% @short_url_list.each do |short_url| %>
+  <%= "www.tinyurl/"+ short_url %> 
+  <%= button_to "Long URL", get_longurl_url(short_url), :method => 'get' %>
+  <%= button_to "Delete URL", delete_longurl_url(short_url), :method => 'delete', data: { confirm: 'Are you sure?'} %>
+  <br>
+<%end %>

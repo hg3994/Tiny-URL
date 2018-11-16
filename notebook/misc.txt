@@ -1,0 +1,57 @@
+
+rails g model Url long_url:string
+rails g model Url long:string short:string
+rails g controller Urls
+
+======================
+[ --- ]:    Create Short URL Button
+O: List of the Short URLs, Delete, Get your long URL from short URL
+======================
+
+
+Hi Harshit,
+
+Your profile is shortlisted for the further round. Hence, please find the assignment question for Backend developer (ROR) role below:
+
+Question  - Build a URL shortener service without using any database
+Create a REST API endpoints for
+
+creating a shortened url
+
+fetching list of shortened urls
+
+fetching original url from a shortened url
+
+deleting shortened-urls
+
+Constraints for the shortener service
+
+Shortened urls should be unique for different urls.
+
+Shortener service should always generate the same url for a given input
+
+Shortener service should generate the same url for all of below cases
+
+google.com
+
+www.google.com
+
+http://google.com
+
+http://www.google.com
+
+https://google.com
+
+https://www.google.com
+
+Build a simple form UI for shortening urls
+
+Show a list of all shortened urls
+
+Users should be able to navigate to the original url by clicking on the shortened url
+
+Write appropriate unit test cases for the shortener service
+
+
+If you have any queries related to understand the assignment of any doubt, contact - deepakmishra@zipgo.in
+Note- Please complete the assignment by 14th November, 2018. And do let us know if you have any doubt.
